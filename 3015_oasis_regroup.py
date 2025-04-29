@@ -4,7 +4,7 @@ input = sys.stdin.readline
 n = int(input())
 heights = [int(input()) for _ in range(n)]
 
-stack = []       # 사람 키만 저장
+stack = [] # 사람 키만 저장
 count_stack = [] # 같은 키 몇 명인지 저장
 ans = 0
 
@@ -27,7 +27,6 @@ for h in heights:
             ans += 1
             break
         
-
     stack.append(h)
     count_stack.append(cnt)
 
