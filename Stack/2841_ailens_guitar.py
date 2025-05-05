@@ -1,7 +1,7 @@
 import sys
 
 n, p = map(int, sys.stdin.readline().split())
-stack = [[] for _ in range(n)]
+stack = [[] for _ in range(6)]
 cnt = 0
 
 for i in range(n):

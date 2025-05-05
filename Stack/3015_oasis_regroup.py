@@ -29,5 +29,7 @@ for h in heights:
         
     stack.append(h)
     count_stack.append(cnt)
+    print(stack)
+    print(ans)
 
 print(ans)
