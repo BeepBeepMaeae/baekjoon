@@ -10,6 +10,7 @@ for _ in range(t):
     dp.append(1)
 
     for i in range(4, n+1):
-        dp.append(dp[i-4]+dp[i-3])
+        # 파도반 수열 점화식 (n >= 4)
+        dp.append(dp[i-4] + dp[i-3])
 
     print(dp[-1])
